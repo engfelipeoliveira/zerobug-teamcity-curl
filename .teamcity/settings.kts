@@ -5,8 +5,8 @@ version = "2020.1"
 
 project {
   buildType {
-    id("zerobug-curl")
-    name = "zerobug-curl"
+    id("zerobugcurl")
+    name = "zerobug curl"
     steps {
         script {
             name = "curl"
