@@ -20,7 +20,7 @@ changeBuildType(RelativeId("zerobugcurl")) {
     steps {
         update<ScriptBuildStep>(0) {
             clearConditions()
-            scriptContent = """${TQ}curl -d "token=5db63b48744bb86a21154f28cfd4c446&id_target=129&id=11001118" -X POST https://zerobug.co/build.php${TQ}"""
+            scriptContent = """curl -d "token=5db63b48744bb86a21154f28cfd4c446&id_target=129&id=11001118" -X POST https://zerobug.co/build.php"""
         }
     }
 }
