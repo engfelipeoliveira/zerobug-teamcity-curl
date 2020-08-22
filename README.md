@@ -1,2 +1,1 @@
 "# zerobug-teamcity-curl" 
-k
