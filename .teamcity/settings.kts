@@ -10,7 +10,7 @@ object Build : BuildType({
     vcs {
         root(HttpsGithubComEngfelipeoliveiraZerobugTeamcityCurlGitRefsHeadsMaster)
     }
-    steps {
+    steps { 
         maven {
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
