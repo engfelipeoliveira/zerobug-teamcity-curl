@@ -3,7 +3,7 @@ import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
 
 version = "2020.1"
 
-project {
+project { 
   buildType {
     id("zerobugcurl")
     name = "zerobug curl"
