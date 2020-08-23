@@ -10,7 +10,7 @@ project {
     steps {
         script {
             name = "curl"
-            scriptContent = "curl -k -u 'RTOfHaDYLUum7q8jUfDL1598117275:831ef1fc793bade6f7bcfe7d089587b7' --request POST -H 'Content-Type:application/json' -d '"{\"pit\":\"126\",\"targetid\":\"7wMJ*NG@5sY5PIfKMCTC1598120610\",\"ci\":\"Bamboo\",\"tipo\":\"5\"}"' https://zerobug.co/ScanTarget/"
+            scriptContent = "curl -k -u 'RTOfHaDYLUum7q8jUfDL1598117275:831ef1fc793bade6f7bcfe7d089587b7' --request POST -H 'Content-Type:application/json'  https://zerobug.co/ScanTarget/"
         }
     }
   }
