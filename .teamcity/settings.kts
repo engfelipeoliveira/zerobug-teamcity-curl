@@ -6,7 +6,7 @@ import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.vcs
 
 object Build : BuildType({
-    name = "Build"
+    name = "Build" 
     vcs {
         root(HttpsGithubComEngfelipeoliveiraZerobugTeamcityCurlGitRefsHeadsMaster)
     }
